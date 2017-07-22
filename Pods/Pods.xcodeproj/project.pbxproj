@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111541C9F7FBA459D627AC8A196A240A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		23E15BCD43AD7F0215FBF0DC7074ECAC /* Pods-MoGoRoom-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C0974B0AFD9F8BA963C44C5C84C331 /* Pods-MoGoRoom-dummy.m */; };
+		27F28F069C7C607C618B5D4FBFFEC9F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		2B8B176DB77E0E8024ED545A1467390D /* UIView+LayoutMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C85B6E2679684C51E6172A07E8489A /* UIView+LayoutMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4355C731060DC668A71EBCBCA3435BDC /* HandyFrame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B9C09E78A626A37B1A883D18D3DCBA /* HandyFrame-dummy.m */; };
+		7D466204D48753778C207C848DE047C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		D274E160F43659FDA92C800617926694 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B36784F83548EC019CB39A0E54F66DF /* UIView+LayoutMethods.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A69D2A8AC6D92CA167A357AE591FAA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE53AD0B7382177F4D30E0299A670EC;
+			remoteInfo = HandyFrame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		200275034BFE70D98E290174E304FBD4 /* Pods-MoGoRoom-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoGoRoom-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A5B8C18C9E120F4066619D843C839F9 /* HandyFrame-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HandyFrame-prefix.pch"; sourceTree = "<group>"; };
+		43C0974B0AFD9F8BA963C44C5C84C331 /* Pods-MoGoRoom-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoGoRoom-dummy.m"; sourceTree = "<group>"; };
+		559E3ED0B90AF3B33FFAFC6600864325 /* Pods-MoGoRoom-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoGoRoom-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B36784F83548EC019CB39A0E54F66DF /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6379006F1FA489084B01BBA16D0DBD5F /* Pods-MoGoRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoGoRoom.debug.xcconfig"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		87C85B6E2679684C51E6172A07E8489A /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		8BD2BD3EADFD7EC83FDD7464016972CB /* libPods-MoGoRoom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MoGoRoom.a"; path = "libPods-MoGoRoom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		965F5E14CA4CB8508C92AC13038C06D8 /* Pods-MoGoRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoGoRoom.release.xcconfig"; sourceTree = "<group>"; };
+		AC5FF8CD298D26DABCA524436FC19FA0 /* Pods-MoGoRoom-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoGoRoom-resources.sh"; sourceTree = "<group>"; };
+		B0B9C09E78A626A37B1A883D18D3DCBA /* HandyFrame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HandyFrame-dummy.m"; sourceTree = "<group>"; };
+		D99F286D6381C49A26BF3921941505A5 /* libHandyFrame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHandyFrame.a; path = libHandyFrame.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBAFBB9F1AF91826A7E71121ED508A7B /* Pods-MoGoRoom-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoGoRoom-frameworks.sh"; sourceTree = "<group>"; };
+		DF1040FD41B01945302B0F15CE2ED9B2 /* HandyFrame.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HandyFrame.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B386257941B7144B98DD805BC6C6DC2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D466204D48753778C207C848DE047C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF69F431313DE5FFFBE89E40A7F31F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111541C9F7FBA459D627AC8A196A240A /* Foundation.framework in Frameworks */,
+				27F28F069C7C607C618B5D4FBFFEC9F0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		374F6BC95D8CBF9B7D5D759326C5B891 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C31236703BF4C128ED52730A9D87AF6 /* Pods-MoGoRoom */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3F213B91184573F93B3996EFFBA74DE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68753309B2BE6DF798107BE785DE08CF /* HandyFrame */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68753309B2BE6DF798107BE785DE08CF /* HandyFrame */ = {
+			isa = PBXGroup;
+			children = (
+				87C85B6E2679684C51E6172A07E8489A /* UIView+LayoutMethods.h */,
+				5B36784F83548EC019CB39A0E54F66DF /* UIView+LayoutMethods.m */,
+				74292D9AF0E86FD5CB6F5F879FFBCA93 /* Support Files */,
+			);
+			name = HandyFrame;
+			path = HandyFrame;
+			sourceTree = "<group>";
+		};
+		74292D9AF0E86FD5CB6F5F879FFBCA93 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF1040FD41B01945302B0F15CE2ED9B2 /* HandyFrame.xcconfig */,
+				B0B9C09E78A626A37B1A883D18D3DCBA /* HandyFrame-dummy.m */,
+				2A5B8C18C9E120F4066619D843C839F9 /* HandyFrame-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HandyFrame";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				3F213B91184573F93B3996EFFBA74DE9 /* Pods */,
+				8DC532BE9D4FDCCE30BEE4F3D199D103 /* Products */,
+				374F6BC95D8CBF9B7D5D759326C5B891 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C31236703BF4C128ED52730A9D87AF6 /* Pods-MoGoRoom */ = {
+			isa = PBXGroup;
+			children = (
+				559E3ED0B90AF3B33FFAFC6600864325 /* Pods-MoGoRoom-acknowledgements.markdown */,
+				200275034BFE70D98E290174E304FBD4 /* Pods-MoGoRoom-acknowledgements.plist */,
+				43C0974B0AFD9F8BA963C44C5C84C331 /* Pods-MoGoRoom-dummy.m */,
+				DBAFBB9F1AF91826A7E71121ED508A7B /* Pods-MoGoRoom-frameworks.sh */,
+				AC5FF8CD298D26DABCA524436FC19FA0 /* Pods-MoGoRoom-resources.sh */,
+				6379006F1FA489084B01BBA16D0DBD5F /* Pods-MoGoRoom.debug.xcconfig */,
+				965F5E14CA4CB8508C92AC13038C06D8 /* Pods-MoGoRoom.release.xcconfig */,
+			);
+			name = "Pods-MoGoRoom";
+			path = "Target Support Files/Pods-MoGoRoom";
+			sourceTree = "<group>";
+		};
+		8DC532BE9D4FDCCE30BEE4F3D199D103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D99F286D6381C49A26BF3921941505A5 /* libHandyFrame.a */,
+				8BD2BD3EADFD7EC83FDD7464016972CB /* libPods-MoGoRoom.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05B5B31A01953C2E0D9A2C478C34B6A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8B176DB77E0E8024ED545A1467390D /* UIView+LayoutMethods.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9692813E462DDF228466BBE2D65349B1 /* Pods-MoGoRoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF45E40FCBF08515914139C133C278F0 /* Build configuration list for PBXNativeTarget "Pods-MoGoRoom" */;
+			buildPhases = (
+				58C016BA8B9D7B782806B59BCCC032B5 /* Sources */,
+				B386257941B7144B98DD805BC6C6DC2B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				614B7D73A73EBCD657C69041A407DF95 /* PBXTargetDependency */,
+			);
+			name = "Pods-MoGoRoom";
+			productName = "Pods-MoGoRoom";
+			productReference = 8BD2BD3EADFD7EC83FDD7464016972CB /* libPods-MoGoRoom.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BAE53AD0B7382177F4D30E0299A670EC /* HandyFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B08945FB2F124B45205E941B00014DF /* Build configuration list for PBXNativeTarget "HandyFrame" */;
+			buildPhases = (
+				E913FAAE82539584E01F5E3860AB6109 /* Sources */,
+				EF69F431313DE5FFFBE89E40A7F31F98 /* Frameworks */,
+				05B5B31A01953C2E0D9A2C478C34B6A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandyFrame;
+			productName = HandyFrame;
+			productReference = D99F286D6381C49A26BF3921941505A5 /* libHandyFrame.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8DC532BE9D4FDCCE30BEE4F3D199D103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE53AD0B7382177F4D30E0299A670EC /* HandyFrame */,
+				9692813E462DDF228466BBE2D65349B1 /* Pods-MoGoRoom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58C016BA8B9D7B782806B59BCCC032B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E15BCD43AD7F0215FBF0DC7074ECAC /* Pods-MoGoRoom-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E913FAAE82539584E01F5E3860AB6109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4355C731060DC668A71EBCBCA3435BDC /* HandyFrame-dummy.m in Sources */,
+				D274E160F43659FDA92C800617926694 /* UIView+LayoutMethods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		614B7D73A73EBCD657C69041A407DF95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HandyFrame;
+			target = BAE53AD0B7382177F4D30E0299A670EC /* HandyFrame */;
+			targetProxy = 3A69D2A8AC6D92CA167A357AE591FAA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4A5FA8A7C0488F5A6B386AE8854979ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF1040FD41B01945302B0F15CE2ED9B2 /* HandyFrame.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HandyFrame/HandyFrame-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82F8B3FA6B7DD6DACFCD666EC0B640E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 965F5E14CA4CB8508C92AC13038C06D8 /* Pods-MoGoRoom.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B01A6B4E1DA9015FE2D133AE281BF5EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF1040FD41B01945302B0F15CE2ED9B2 /* HandyFrame.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HandyFrame/HandyFrame-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CA53F414DF6455FE5EBD5FCB17A4DE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6379006F1FA489084B01BBA16D0DBD5F /* Pods-MoGoRoom.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B08945FB2F124B45205E941B00014DF /* Build configuration list for PBXNativeTarget "HandyFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5FA8A7C0488F5A6B386AE8854979ED /* Debug */,
+				B01A6B4E1DA9015FE2D133AE281BF5EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF45E40FCBF08515914139C133C278F0 /* Build configuration list for PBXNativeTarget "Pods-MoGoRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA53F414DF6455FE5EBD5FCB17A4DE04 /* Debug */,
+				82F8B3FA6B7DD6DACFCD666EC0B640E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

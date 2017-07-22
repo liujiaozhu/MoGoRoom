@@ -15,6 +15,16 @@
 		8793DE021EA3974B004AEF53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8793DE001EA3974B004AEF53 /* LaunchScreen.storyboard */; };
 		8793DE0D1EA3974B004AEF53 /* MoGoRoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793DE0C1EA3974B004AEF53 /* MoGoRoomTests.m */; };
 		8793DE181EA3974B004AEF53 /* MoGoRoomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793DE171EA3974B004AEF53 /* MoGoRoomUITests.m */; };
+		8793DE281EA39891004AEF53 /* MoGoRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793DE271EA39891004AEF53 /* MoGoRoomViewController.m */; };
+		8793DE2F1EA39969004AEF53 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793DE2E1EA39969004AEF53 /* UIColor+Random.m */; };
+		8793DE321EA399AB004AEF53 /* MoGoRoomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793DE311EA399AB004AEF53 /* MoGoRoomTableViewCell.m */; };
+		8793DE3A1EA39BB2004AEF53 /* MoGoRoomBusiness1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793DE391EA39BB2004AEF53 /* MoGoRoomBusiness1.m */; };
+		8793DE3D1EA39BCA004AEF53 /* MoGoRoomBusiness2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793DE3C1EA39BCA004AEF53 /* MoGoRoomBusiness2.m */; };
+		8793DE401EA39BD5004AEF53 /* MoGoRoomBusiness3.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793DE3F1EA39BD5004AEF53 /* MoGoRoomBusiness3.m */; };
+		8793DE431EA39BE4004AEF53 /* MoGoRoomBusiness4.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793DE421EA39BE4004AEF53 /* MoGoRoomBusiness4.m */; };
+		8793DE461EA39BEF004AEF53 /* MoGoRoomBusiness5.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793DE451EA39BEF004AEF53 /* MoGoRoomBusiness5.m */; };
+		8793DE491EA39CA0004AEF53 /* MoGoRoomAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793DE481EA39CA0004AEF53 /* MoGoRoomAPI.m */; };
+		9484E061A934C368CF03B929 /* libPods-MoGoRoom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A362CE87128CEB44A1154BD /* libPods-MoGoRoom.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16FB47D4DA8A06EA240C47BE /* Pods-MoGoRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoGoRoom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoGoRoom/Pods-MoGoRoom.debug.xcconfig"; sourceTree = "<group>"; };
+		36BA1A5B0B6CBE131BB4C1CD /* Pods-MoGoRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoGoRoom.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoGoRoom/Pods-MoGoRoom.release.xcconfig"; sourceTree = "<group>"; };
 		8793DDEF1EA3974B004AEF53 /* MoGoRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoGoRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8793DDF31EA3974B004AEF53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8793DDF51EA3974B004AEF53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,26 @@
 		8793DE131EA3974B004AEF53 /* MoGoRoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoGoRoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8793DE171EA3974B004AEF53 /* MoGoRoomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoGoRoomUITests.m; sourceTree = "<group>"; };
 		8793DE191EA3974B004AEF53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8793DE261EA39891004AEF53 /* MoGoRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoGoRoomViewController.h; sourceTree = "<group>"; };
+		8793DE271EA39891004AEF53 /* MoGoRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoGoRoomViewController.m; sourceTree = "<group>"; };
+		8793DE2D1EA39969004AEF53 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		8793DE2E1EA39969004AEF53 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		8793DE301EA399AB004AEF53 /* MoGoRoomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoGoRoomTableViewCell.h; sourceTree = "<group>"; };
+		8793DE311EA399AB004AEF53 /* MoGoRoomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoGoRoomTableViewCell.m; sourceTree = "<group>"; };
+		8793DE361EA39AC5004AEF53 /* MoGoRoomBusinessProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoGoRoomBusinessProtocol.h; sourceTree = "<group>"; };
+		8793DE381EA39BB2004AEF53 /* MoGoRoomBusiness1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoGoRoomBusiness1.h; sourceTree = "<group>"; };
+		8793DE391EA39BB2004AEF53 /* MoGoRoomBusiness1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoGoRoomBusiness1.m; sourceTree = "<group>"; };
+		8793DE3B1EA39BCA004AEF53 /* MoGoRoomBusiness2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoGoRoomBusiness2.h; sourceTree = "<group>"; };
+		8793DE3C1EA39BCA004AEF53 /* MoGoRoomBusiness2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoGoRoomBusiness2.m; sourceTree = "<group>"; };
+		8793DE3E1EA39BD5004AEF53 /* MoGoRoomBusiness3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoGoRoomBusiness3.h; sourceTree = "<group>"; };
+		8793DE3F1EA39BD5004AEF53 /* MoGoRoomBusiness3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoGoRoomBusiness3.m; sourceTree = "<group>"; };
+		8793DE411EA39BE4004AEF53 /* MoGoRoomBusiness4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoGoRoomBusiness4.h; sourceTree = "<group>"; };
+		8793DE421EA39BE4004AEF53 /* MoGoRoomBusiness4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoGoRoomBusiness4.m; sourceTree = "<group>"; };
+		8793DE441EA39BEF004AEF53 /* MoGoRoomBusiness5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoGoRoomBusiness5.h; sourceTree = "<group>"; };
+		8793DE451EA39BEF004AEF53 /* MoGoRoomBusiness5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoGoRoomBusiness5.m; sourceTree = "<group>"; };
+		8793DE471EA39CA0004AEF53 /* MoGoRoomAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoGoRoomAPI.h; sourceTree = "<group>"; };
+		8793DE481EA39CA0004AEF53 /* MoGoRoomAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoGoRoomAPI.m; sourceTree = "<group>"; };
+		8A362CE87128CEB44A1154BD /* libPods-MoGoRoom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoGoRoom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9484E061A934C368CF03B929 /* libPods-MoGoRoom.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +111,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55482AEDFF6195A89D939092 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A362CE87128CEB44A1154BD /* libPods-MoGoRoom.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8793DDE61EA3974B004AEF53 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,8 @@
 				8793DE0B1EA3974B004AEF53 /* MoGoRoomTests */,
 				8793DE161EA3974B004AEF53 /* MoGoRoomUITests */,
 				8793DDF01EA3974B004AEF53 /* Products */,
+				FCE9610C6837AA8A486915C5 /* Pods */,
+				55482AEDFF6195A89D939092 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +144,7 @@
 		8793DDF11EA3974B004AEF53 /* MoGoRoom */ = {
 			isa = PBXGroup;
 			children = (
+				8793DE251EA39773004AEF53 /* MoGoRoom */,
 				8793DDF51EA3974B004AEF53 /* AppDelegate.h */,
 				8793DDF61EA3974B004AEF53 /* AppDelegate.m */,
 				8793DDF81EA3974B004AEF53 /* ViewController.h */,
@@ -140,6 +184,73 @@
 			path = MoGoRoomUITests;
 			sourceTree = "<group>";
 		};
+		8793DE251EA39773004AEF53 /* MoGoRoom */ = {
+			isa = PBXGroup;
+			children = (
+				8793DE371EA39B8B004AEF53 /* MoGoRoomBusiness */,
+				8793DE291EA3992C004AEF53 /* MoGoRoomAPIManager */,
+				8793DE2B1EA3992C004AEF53 /* Tool */,
+				8793DE2C1EA3992C004AEF53 /* Views */,
+				8793DE261EA39891004AEF53 /* MoGoRoomViewController.h */,
+				8793DE271EA39891004AEF53 /* MoGoRoomViewController.m */,
+				8793DE361EA39AC5004AEF53 /* MoGoRoomBusinessProtocol.h */,
+			);
+			path = MoGoRoom;
+			sourceTree = "<group>";
+		};
+		8793DE291EA3992C004AEF53 /* MoGoRoomAPIManager */ = {
+			isa = PBXGroup;
+			children = (
+				8793DE471EA39CA0004AEF53 /* MoGoRoomAPI.h */,
+				8793DE481EA39CA0004AEF53 /* MoGoRoomAPI.m */,
+			);
+			path = MoGoRoomAPIManager;
+			sourceTree = "<group>";
+		};
+		8793DE2B1EA3992C004AEF53 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				8793DE2D1EA39969004AEF53 /* UIColor+Random.h */,
+				8793DE2E1EA39969004AEF53 /* UIColor+Random.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		8793DE2C1EA3992C004AEF53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8793DE301EA399AB004AEF53 /* MoGoRoomTableViewCell.h */,
+				8793DE311EA399AB004AEF53 /* MoGoRoomTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8793DE371EA39B8B004AEF53 /* MoGoRoomBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				8793DE381EA39BB2004AEF53 /* MoGoRoomBusiness1.h */,
+				8793DE391EA39BB2004AEF53 /* MoGoRoomBusiness1.m */,
+				8793DE3B1EA39BCA004AEF53 /* MoGoRoomBusiness2.h */,
+				8793DE3C1EA39BCA004AEF53 /* MoGoRoomBusiness2.m */,
+				8793DE3E1EA39BD5004AEF53 /* MoGoRoomBusiness3.h */,
+				8793DE3F1EA39BD5004AEF53 /* MoGoRoomBusiness3.m */,
+				8793DE411EA39BE4004AEF53 /* MoGoRoomBusiness4.h */,
+				8793DE421EA39BE4004AEF53 /* MoGoRoomBusiness4.m */,
+				8793DE441EA39BEF004AEF53 /* MoGoRoomBusiness5.h */,
+				8793DE451EA39BEF004AEF53 /* MoGoRoomBusiness5.m */,
+			);
+			path = MoGoRoomBusiness;
+			sourceTree = "<group>";
+		};
+		FCE9610C6837AA8A486915C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16FB47D4DA8A06EA240C47BE /* Pods-MoGoRoom.debug.xcconfig */,
+				36BA1A5B0B6CBE131BB4C1CD /* Pods-MoGoRoom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8793DE1C1EA3974B004AEF53 /* Build configuration list for PBXNativeTarget "MoGoRoom" */;
 			buildPhases = (
+				4710DE3A7D834D7ED58BE62D /* [CP] Check Pods Manifest.lock */,
 				8793DDEB1EA3974B004AEF53 /* Sources */,
 				8793DDEC1EA3974B004AEF53 /* Frameworks */,
 				8793DDED1EA3974B004AEF53 /* Resources */,
+				A4C24D42CD25931095898C35 /* [CP] Embed Pods Frameworks */,
+				38756C6711793DA083E27056 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +385,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38756C6711793DA083E27056 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoGoRoom/Pods-MoGoRoom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4710DE3A7D834D7ED58BE62D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4C24D42CD25931095898C35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoGoRoom/Pods-MoGoRoom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8793DDEB1EA3974B004AEF53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8793DE2F1EA39969004AEF53 /* UIColor+Random.m in Sources */,
 				8793DDFA1EA3974B004AEF53 /* ViewController.m in Sources */,
+				8793DE321EA399AB004AEF53 /* MoGoRoomTableViewCell.m in Sources */,
+				8793DE431EA39BE4004AEF53 /* MoGoRoomBusiness4.m in Sources */,
+				8793DE401EA39BD5004AEF53 /* MoGoRoomBusiness3.m in Sources */,
+				8793DE491EA39CA0004AEF53 /* MoGoRoomAPI.m in Sources */,
+				8793DE3D1EA39BCA004AEF53 /* MoGoRoomBusiness2.m in Sources */,
+				8793DE281EA39891004AEF53 /* MoGoRoomViewController.m in Sources */,
 				8793DDF71EA3974B004AEF53 /* AppDelegate.m in Sources */,
+				8793DE3A1EA39BB2004AEF53 /* MoGoRoomBusiness1.m in Sources */,
 				8793DDF41EA3974B004AEF53 /* main.m in Sources */,
+				8793DE461EA39BEF004AEF53 /* MoGoRoomBusiness5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +594,7 @@
 		};
 		8793DE1D1EA3974B004AEF53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16FB47D4DA8A06EA240C47BE /* Pods-MoGoRoom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MXGN8RS4X4;
@@ -435,6 +607,7 @@
 		};
 		8793DE1E1EA3974B004AEF53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36BA1A5B0B6CBE131BB4C1CD /* Pods-MoGoRoom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MXGN8RS4X4;
@@ -514,6 +687,7 @@
 				8793DE1E1EA3974B004AEF53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8793DE1F1EA3974B004AEF53 /* Build configuration list for PBXNativeTarget "MoGoRoomTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +696,7 @@
 				8793DE211EA3974B004AEF53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8793DE221EA3974B004AEF53 /* Build configuration list for PBXNativeTarget "MoGoRoomUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +705,7 @@
 				8793DE241EA3974B004AEF53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
