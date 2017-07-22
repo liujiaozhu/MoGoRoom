@@ -93,7 +93,6 @@ NSString * const kViewControllerTableViewCellIdentifier = @"kViewControllerTable
                             }
                         ];
     }
-    
     return _dataSource;
 }
 @end
